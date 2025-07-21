@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For custom scrollbar in SlidesViewer for better aesthetics */
+.snap-x::-webkit-scrollbar {
+  height: 8px;
+}
+.snap-x::-webkit-scrollbar-track {
+  background: #f1f5f9; /* slate-100 */
+}
+.snap-x::-webkit-scrollbar-thumb {
+  background: #94a3b8; /* slate-400 */
+  border-radius: 4px;
+}
+.snap-x::-webkit-scrollbar-thumb:hover {
+  background: #64748b; /* slate-500 */
+}
